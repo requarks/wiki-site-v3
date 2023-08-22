@@ -6,9 +6,22 @@
           <h2 class="text-3xl font-bold tracking-tight text-white">Sponsors & Backers</h2>
           <p class="mt-6 text-lg leading-8 text-gray-300">This open source project is made possible thanks to our generous sponsors and backers.</p>
           <div class="mt-8 flex items-center gap-x-6">
-            <a href="#" class="rounded-md bg-sky-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-500">Donate</a>
-            <a href="#" class="text-sm font-semibold text-white">View List <span aria-hidden="true">&rarr;</span></a>
+            <NuxtLink to="/donate" class="rounded-md bg-emerald-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-500">
+              <Icon name="uil:heart" class="h-5 w-5 flex-none text-emerald-200" aria-hidden="true" />
+              Donate
+            </NuxtLink>
+            <NuxtLink to="/backers" class="text-sm font-semibold text-white">View List <span aria-hidden="true">&rarr;</span></NuxtLink>
           </div>
+          <dl class="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
+            <div class="overflow-hidden rounded-lg bg-gradient-to-tr from-slate-800 to-slate-700 px-4 py-5 shadow sm:p-6">
+              <dt class="truncate text-sm font-medium text-emerald-200">GitHub Stars</dt>
+              <dd class="mt-1 text-3xl font-semibold tracking-tight text-emerald-400">21,600+</dd>
+            </div>
+            <div class="overflow-hidden rounded-lg bg-gradient-to-tl from-slate-800 to-slate-700 px-4 py-5 shadow sm:p-6">
+              <dt class="truncate text-sm font-medium text-emerald-200">Downloads</dt>
+              <dd class="mt-1 text-3xl font-semibold tracking-tight text-emerald-400">50M+</dd>
+            </div>
+          </dl>
         </div>
         <div class="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-2">
           <div class="bg-white/5 hover:bg-white/10 p-8 sm:p-10">

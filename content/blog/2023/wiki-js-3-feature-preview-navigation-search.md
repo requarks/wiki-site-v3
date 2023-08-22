@@ -5,7 +5,6 @@ date: 2023-07-24
 tags:
   - v3
 ---
-# Wiki.js 3.0 Feature Preview - Navigation & Search
 
 The navigation and search capabilities have been greatly improved in v3. Let's have a look at what's new.
 

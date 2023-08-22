@@ -5,7 +5,6 @@ date: 2023-04-29
 tags:
   - v3
 ---
-# Wiki.js 3.0 Feature Preview - Markdown Editor
 
 ![Markdown Editor](/img/blog-2023-markdown-editor.png){.rounded-md.mx-auto}
 

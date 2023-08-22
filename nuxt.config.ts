@@ -1,8 +1,10 @@
+import tailwindTypography from '@tailwindcss/typography'
+
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
-    '@unocss/nuxt',
+    '@nuxtjs/tailwindcss',
     'nuxt-headlessui',
     'nuxt-icon',
     'nuxt-svgo',
@@ -13,13 +15,11 @@ export default defineNuxtConfig({
     enabled: true
   },
 
-  vite: {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          additionalData: '@use "@/assets/scss/_variables.scss" as *;'
-        }
-      }
+  tailwindcss: {      
+    config: {
+      plugins: [
+          tailwindTypography({ className: 'prose' })
+      ]
     }
   }
 })

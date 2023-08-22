@@ -8,10 +8,10 @@
         <div class="mx-auto max-w-3xl text-center">
           <h1 class="text-4xl font-bold tracking-tight sm:text-6xl bg-gradient-to-br from-emerald-300 via-sky-400 to-purple-500 bg-clip-text text-transparent display-inline-block">Next Generation</h1>
           <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Open Source Wiki</h2>
-          <p class="mt-6 text-lg leading-8 text-gray-300">Make documentation a joy to write using Wiki.js's beautiful and intuitive interface!</p>
+          <p class="mt-6 text-lg leading-8 text-gray-300">Write documentation in Markdown, AsciiDoc or via the Visual Editor.</p>
           <div class="mt-10 flex items-center justify-center gap-x-6">
-            <a href="#" class="rounded-md bg-sky-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">Get started</a>
-            <a href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a>
+            <NuxtLink to="/docs/install" class="rounded-md bg-sky-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-400">Get started</NuxtLink>
+            <NuxtLink href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></NuxtLink>
           </div>
         </div>
         <img src="https://js.wiki/img/wiki-screenshot-2x.830b799c.png" alt="App screenshot" width="2432" height="1442" class="mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24" />

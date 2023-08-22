@@ -6,8 +6,6 @@ tags:
   - v3
 ---
 
-# Wiki.js 3.0 Feature Preview - File Manager
-
 <iframe class="overflow-hidden rounded" width="100%" height="500" src="https://www.youtube.com/embed/bkO-uhQ9-gA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Wiki.js 3.0 introduces a new management system called **File Manager**.
