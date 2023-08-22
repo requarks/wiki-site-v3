@@ -4,6 +4,6 @@ Various editors are available to create and edit pages. You can disable the edit
 
 Some editors can be configured with additional parameters.
 
-- [AsciiDoc Editor](editors/asciidoc)
-- [Markdown Editor](editors/markdown)
-- [Visual Editor](editors/wysiwyg)
+- [AsciiDoc Editor]()
+- [Markdown Editor]()
+- [Visual Editor]()

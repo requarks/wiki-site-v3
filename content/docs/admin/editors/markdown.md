@@ -1,6 +1,6 @@
 # Markdown Editor
 
-> Looking for [Markdown Editor user guide](../../guide/writing/markdown)?
+> Looking for [Markdown Editor user guide]()?
 
 The markdown editor is a popular choice among technical users / developers.
 
