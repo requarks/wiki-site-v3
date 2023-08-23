@@ -86,7 +86,7 @@ const navigation = {
   ],
   about: [
     { name: 'Blog', href: '#' },
-    { name: 'Changelog', href: '#' },
+    { name: 'Changelog', href: '/changelog' },
     { name: 'GitHub Project', href: '#' }
   ]
 }
