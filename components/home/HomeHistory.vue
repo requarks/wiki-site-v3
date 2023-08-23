@@ -6,8 +6,8 @@
         <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Keep track of the changes</p>
         <p class="mt-6 text-lg leading-8 text-emerald-200">The history of all page edits is saved so that you can quickly see what changed between edits and go back if necessary.</p>
       </div>
-      <div class="mx-auto mt-16 max-w-2xl sm:mt-14 lg:mt-24 lg:max-w-none">
-        <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+      <div class="mx-auto mt-10 max-w-2xl sm:mt-14 lg:mt-18 lg:max-w-none">
+        <dl class="grid max-w-none grid-cols-1 gap-x-8 gap-y-10 lg:gap-y-16 lg:grid-cols-3">
 
           <div class="flex flex-col">
             <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">

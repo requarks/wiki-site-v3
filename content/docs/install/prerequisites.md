@@ -37,7 +37,7 @@ You cannot map Wiki.js to a subfolder.
 
 A [PostgreSQL](https://www.postgresql.org/download/) database is required. The following versions are supported:
 
-- PostgreSQL **11 or later**
+- PostgreSQL **12 or later**
 
 ::: tip
 It's recommended you use the latest version of PostgreSQL when possible.

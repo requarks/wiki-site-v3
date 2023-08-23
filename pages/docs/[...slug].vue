@@ -1,8 +1,8 @@
 <template>
-  <div class="relative mx-auto flex w-full max-w-8xl flex-auto justify-center sm:px-2 lg:px-8 xl:px-12">
+  <div class="relative mx-auto py-16 flex w-full max-w-7xl flex-auto justify-center sm:px-2 lg:px-8 xl:px-12">
     <DocsSidebar :navigation="navigation" />
-    <div class="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16">
-      <main class="prose prose-invert prose-sky py-16 mx-auto max-w-5xl text-white">
+    <div class="min-w-0 max-w-2xl flex-auto px-4 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16">
+      <main class="prose prose-invert prose-sky mx-auto max-w-5xl text-white">
         <ContentDoc />
       </main>
     </div>
@@ -13,7 +13,7 @@
 import { find } from 'lodash-es'
 
 const sections = [
-  { key: 'getting-started', title: 'Getting Started' },
+  { key: 'install', title: 'Getting Started' },
   { key: 'guide', title: 'User Guide' },
   { key: 'editor', title: 'Editing'},
   { key: 'admin', title: 'Administration' },

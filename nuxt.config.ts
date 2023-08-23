@@ -15,10 +15,10 @@ export default defineNuxtConfig({
     enabled: true
   },
 
-  tailwindcss: {      
+  tailwindcss: {
     config: {
       plugins: [
-          tailwindTypography({ className: 'prose' })
+          tailwindTypography()
       ]
     }
   }

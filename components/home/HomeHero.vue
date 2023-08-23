@@ -3,7 +3,7 @@
     <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
       <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-70 -translate-y-10 rotate-[30deg] bg-gradient-to-tr from-emerald-400 via-sky-500 to-purple-500 opacity-20 sm:left-[calc(50%-50rem)] sm:w-[120rem]" style="clip-path: polygon(29% 11%, 100% 20%, 0 26%, 21% 50%, 54% 45%, 31% 100%, 100% 45%, 13% 84%)" />
     </div>
-    <div class="py-24 sm:py-32 lg:pb-20">
+    <div class="py-16 sm:py-32 lg:pb-20">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-3xl text-center">
           <h1 class="text-4xl font-bold tracking-tight sm:text-6xl bg-gradient-to-br from-emerald-300 via-sky-400 to-purple-500 bg-clip-text text-transparent display-inline-block">Next Generation</h1>

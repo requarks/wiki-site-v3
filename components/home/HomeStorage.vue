@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-hidden bg-gray-900 bg-gradient-to-tr from-slate-900 via-sky-950 to-sky-800 py-18 sm:py-24 border-t border-solid border-sky-700">
+  <div class="overflow-hidden bg-gray-900 bg-gradient-to-tr from-slate-900 via-sky-950 to-sky-800 py-16 sm:py-24 border-t border-solid border-sky-700">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="lg:ml-auto lg:pl-4 lg:pt-4">

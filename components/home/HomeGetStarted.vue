@@ -1,6 +1,6 @@
 <template>
   <div class="isolate overflow-hidden bg-gray-950">
-    <div class="mx-auto max-w-7xl px-6 pb-96 pt-18 text-center sm:pt-24 lg:px-8">
+    <div class="mx-auto max-w-7xl px-6 pb-96 pt-16 text-center sm:pt-24 lg:px-8">
       <div class="mx-auto max-w-4xl">
         <h2 class="text-base font-semibold leading-7 text-indigo-400">Get Started</h2>
         <p class="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">Deploy anywhere, <br class="hidden sm:inline lg:hidden" />on any platform</p>
@@ -18,7 +18,7 @@
         </svg>
       </div>
     </div>
-    <div class="flow-root bg-gray-950 bg-gradient-to-tr from-gray-950 to-gray-900 pb-24 sm:pb-24 border-t border-solid border-gray-700">
+    <div class="flow-root bg-gray-950 bg-gradient-to-tr from-gray-950 to-gray-900 pb-16 sm:pb-24 border-t border-solid border-gray-700">
       <div class="-mt-80">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-4xl lg:grid-cols-2">
@@ -63,7 +63,7 @@
                   <li><em class="text-slate-400">More coming soon...</em></li>
                 </ul>
               </div>
-              <NuxtLink to="/docs/install" class="mt-8 block rounded-md bg-indigo-600 px-3.5 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Deploy</NuxtLink>
+              <NuxtLink to="/docs/install/platform/digitalocean" class="mt-8 block rounded-md bg-indigo-600 px-3.5 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Deploy</NuxtLink>
             </div>
             <div class="flex flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-indigo-500/50 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
               <div class="lg:min-w-0 lg:flex-1">
