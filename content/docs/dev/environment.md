@@ -20,16 +20,16 @@ It's highly recommended to use [WSL2](https://docs.microsoft.com/en-us/windows/w
 3. From the **Extensions** tab, install the **Remote Development** extension by Microsoft (*ms-vscode-remote.vscode-remote-extensionpack*)
 4. Click the **green button** located in the bottom-left corner of VS Code: *(or open the command palette)*
 
-	![ui-dev-vscode-remotebtn.png](/images/ui-dev-vscode-remotebtn.png)
+	![ui-dev-vscode-remotebtn.png](/img/docs-dev-vscode-remotebtn.png)
 
 5. Select **Remote Containers - Reopen in Container**
 6. VS Code will now reload and start initializing the containers. Wait for it to complete. This **may take a while the very first time** as npm dependencies must be installed.
 
-	![ui-dev-vscode-init.png](/images/ui-dev-vscode-init.png)
+	![ui-dev-vscode-init.png](/img/docs-dev-vscode-init.png)
 
 7. Open the **Terminal** *(View > Terminal)* and select "**1: bash**" from the dropdown selector on the right:
 
-	![ui-dev-vscode-bash.png](/images/ui-dev-vscode-bash.png)
+	![ui-dev-vscode-bash.png](/img/docs-dev-vscode-bash.png)
 
 8. From the command line, type the following command to start Wiki.js in development mode:
     ```bash

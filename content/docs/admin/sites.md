@@ -24,7 +24,7 @@ Users reside at the global level and are **NOT** tied to a site. They can be all
 
 Click on the **New Site** button. A dialog to create a new site will appear.
 
-![New Site Dialog](/images/docs-admin-sites-new.png){.shadow}
+![New Site Dialog](/img/docs-admin-sites-new.png){.shadow}
 
 **Name**: Enter a name for your site. It will be shown in the top-left corner of the site.
 
@@ -36,7 +36,7 @@ Both values can be changed at any time later from the [General](#general) page.
 
 From the left sidebar, select the site you want to edit from the dropdown menu:
 
-![Site Selector](/images/docs-admin-sites-dropdown.png){.rounded .shadow}
+![Site Selector](/img/docs-admin-sites-dropdown.png){.rounded .shadow}
 
 Sidebar menu items *(e.g. General, Analytics, etc.)* under the **Site** section will affect only the currently selected site.
 
