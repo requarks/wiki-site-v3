@@ -14,7 +14,7 @@
             <NuxtLink href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></NuxtLink>
           </div>
         </div>
-        <img src="https://js.wiki/img/wiki-screenshot-2x.830b799c.png" alt="App screenshot" width="2432" height="1442" class="mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24" />
+        <img src="/img/blog-2023-markdown-editor.png" alt="App screenshot" width="2432" height="1442" class="mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24" />
       </div>
     </div>
   </div>

@@ -1,1 +1,1 @@
-Blog
+Placeholder Page
