@@ -1,12 +1,13 @@
 <template>
-  <footer class="bg-gray-900 bg-gradient-to-b from-gray-950 to-gray-900" aria-labelledby="footer-heading">
+  <footer class="dark:bg-gray-900 bg-gradient-to-b from-gray-100 to-white dark:from-gray-950 dark:to-gray-900" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-10 sm:pt-16 lg:px-8 lg:pt-24">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8">
-          <SvgoLogo class="w-auto h-20" :fontControlled="false" filled />
-          <div class="text-sm leading-6 text-gray-300">
-            <p>Stable Release: <strong class="text-emerald-300">2.5.300</strong></p>
+          <SvgoLogo class="hidden dark:block w-auto h-20" :fontControlled="false" filled />
+          <SvgoLogoLight class="dark:hidden w-auto h-20" :fontControlled="false" filled />
+          <div class="text-sm leading-6 text-gray-500 dark:text-gray-300">
+            <p>Stable Release: <strong class="text-emerald-500 dark:text-emerald-300">2.5.300</strong></p>
             <p>Alpha Release: <strong class="text-indigo-400">3.0.0-alpha.277</strong></p>
           </div>
           <div class="flex space-x-6">
@@ -20,36 +21,36 @@
         <div class="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 class="text-sm font-semibold leading-6 text-white">Docs</h3>
+              <h3 class="text-sm font-semibold leading-6 text-gray-500 dark:text-white">Docs</h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.docs" :key="item.name">
-                  <NuxtLink :to="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</NuxtLink>
+                  <NuxtLink :to="item.href" class="text-sm leading-6 text-gray-700 hover:text-sky-700 dark:text-gray-300 dark:hover:text-white">{{ item.name }}</NuxtLink>
                 </li>
               </ul>
             </div>
             <div class="mt-10 md:mt-0">
-              <h3 class="text-sm font-semibold leading-6 text-white">Contribute</h3>
+              <h3 class="text-sm font-semibold leading-6 text-gray-500 dark:text-white">Contribute</h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.contribute" :key="item.name">
-                  <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
+                  <a :href="item.href" class="text-sm leading-6 text-gray-700 hover:text-sky-700 dark:text-gray-300 dark:hover:text-white">{{ item.name }}</a>
                 </li>
               </ul>
             </div>
           </div>
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 class="text-sm font-semibold leading-6 text-white">Support</h3>
+              <h3 class="text-sm font-semibold leading-6 text-gray-500 dark:text-white">Support</h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.support" :key="item.name">
-                  <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
+                  <a :href="item.href" class="text-sm leading-6 text-gray-700 hover:text-sky-700 dark:text-gray-300 dark:hover:text-white">{{ item.name }}</a>
                 </li>
               </ul>
             </div>
             <div class="mt-10 md:mt-0">
-              <h3 class="text-sm font-semibold leading-6 text-white">About</h3>
+              <h3 class="text-sm font-semibold leading-6 text-gray-500 dark:text-white">About</h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.about" :key="item.name">
-                  <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
+                  <a :href="item.href" class="text-sm leading-6 text-gray-700 hover:text-sky-700 dark:text-gray-300 dark:hover:text-white">{{ item.name }}</a>
                 </li>
               </ul>
             </div>
@@ -57,7 +58,7 @@
         </div>
       </div>
       <div class="mt-8 border-t border-white/10 pt-8 sm:mt-12 lg:mt-18">
-        <p class="text-xs leading-5 text-gray-400">&copy; 2016-{{ currentYear }} Nicolas Giard & Wiki.js Contributors. Released under the AGPLv3 License.</p>
+        <p class="text-xs leading-5 text-gray-500 dark:text-gray-400">&copy; 2016-{{ currentYear }} Nicolas Giard & Wiki.js Contributors. Released under the AGPLv3 License.</p>
       </div>
     </div>
   </footer>

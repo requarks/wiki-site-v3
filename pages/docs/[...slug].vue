@@ -2,7 +2,7 @@
   <div class="docs relative mx-auto py-8 flex w-full flex-auto justify-center sm:px-2 lg:px-8 xl:px-12">
     <DocsSidebar :navigation="navigation" />
     <div class="min-w-0 max-w-2xl flex-auto px-4 lg:max-w-none py-8 lg:pl-8 lg:pr-0 xl:px-16">
-      <main class="docs-content prose prose-invert mx-auto max-w-5xl text-white" ref="docs-content">
+      <main class="docs-content prose dark:prose-invert mx-auto max-w-5xl text-gray-800 dark:text-white" ref="docs-content">
         <ContentDoc />
       </main>
     </div>

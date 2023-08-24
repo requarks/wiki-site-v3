@@ -1,12 +1,12 @@
 <template>
-  <div class="isolate overflow-hidden bg-gray-950">
+  <div class="isolate overflow-hidden bg-gray-100 dark:bg-gray-950">
     <div class="mx-auto max-w-7xl px-6 pb-96 pt-16 text-center sm:pt-24 lg:px-8">
       <div class="mx-auto max-w-4xl">
-        <h2 class="text-base font-semibold leading-7 text-indigo-400">Get Started</h2>
-        <p class="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">Deploy anywhere, <br class="hidden sm:inline lg:hidden" />on any platform</p>
+        <h2 class="text-base font-semibold leading-7 text-indigo-600 dark:text-indigo-400">Get Started</h2>
+        <p class="mt-2 text-4xl font-bold tracking-tight text-gray-800 dark:text-white sm:text-5xl">Deploy anywhere, <br class="hidden sm:inline lg:hidden" />on any platform</p>
       </div>
       <div class="relative mt-6">
-        <p class="mx-auto max-w-2xl text-lg leading-8 text-white/60">Running on the blazing fast Node.js engine with a powerful PostgreSQL backend, Wiki.js can be deployed on virtually any platform.</p>
+        <p class="mx-auto max-w-2xl text-lg leading-8 text-gray-600 dark:text-white/60">Running on the blazing fast Node.js engine with a powerful PostgreSQL backend, Wiki.js can be deployed on virtually any platform.</p>
         <svg viewBox="0 0 1208 1024" class="absolute -top-10 left-1/2 -z-10 h-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:-top-12 md:-top-20 lg:-top-12 xl:top-0">
           <ellipse cx="604" cy="512" fill="url(#6d1bd035-0dd1-437e-93fa-59d316231eb0)" rx="604" ry="512" />
           <defs>
@@ -18,7 +18,7 @@
         </svg>
       </div>
     </div>
-    <div class="flow-root bg-gray-950 bg-gradient-to-tr from-gray-950 to-gray-900 pb-16 sm:pb-24 border-t border-solid border-gray-700">
+    <div class="flow-root dark:bg-gray-950 bg-gradient-to-tr from-slate-50 via-slate-200 to-slate-100 dark:from-gray-950 dark:to-gray-900 pb-16 sm:pb-24 border-t border-solid border-gray-300 dark:border-gray-700">
       <div class="-mt-80">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-4xl lg:grid-cols-2">
@@ -67,10 +67,10 @@
             </div>
             <div class="flex flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-indigo-500/50 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
               <div class="lg:min-w-0 lg:flex-1">
-                <h3 class="text-lg font-semibold leading-8 tracking-tight text-indigo-300">Legacy Versions</h3>
-                <p class="mt-1 text-base leading-7 text-indigo-100">Looking for an earlier version of Wiki.js?</p>
+                <h3 class="text-lg font-semibold leading-8 tracking-tight text-indigo-500 dark:text-indigo-300">Legacy Versions</h3>
+                <p class="mt-1 text-base leading-7 text-indigo-700 dark:text-indigo-100">Looking for an earlier version of Wiki.js?</p>
               </div>
-              <a href="https://js.wiki" class="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-indigo-300 ring-1 ring-inset ring-indigo-500 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">View Wiki.js v2 <span aria-hidden="true">&rarr;</span></a>
+              <a href="https://js.wiki" class="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-indigo-600 dark:text-indigo-300 ring-1 ring-inset ring-indigo-500 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">View Wiki.js v2 <span aria-hidden="true">&rarr;</span></a>
             </div>
           </div>
         </div>

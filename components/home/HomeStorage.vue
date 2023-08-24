@@ -1,16 +1,16 @@
 <template>
-  <div class="overflow-hidden bg-gray-900 bg-gradient-to-tr from-slate-900 via-sky-950 to-sky-800 py-16 sm:py-24 border-t border-solid border-sky-700">
+  <div class="overflow-hidden dark:bg-gray-900 bg-gradient-to-tr from-white via-sky-100 to-sky-50 dark:from-slate-900 dark:via-sky-950 dark:to-sky-800 py-16 sm:py-24 border-t border-solid border-sky-300 dark:border-sky-700">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="lg:ml-auto lg:pl-4 lg:pt-4">
           <div class="lg:max-w-lg">
-            <h2 class="text-base font-semibold leading-7 text-sky-300">Storage</h2>
-            <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Sync your content</p>
-            <p class="mt-6 text-lg leading-8 text-sky-200">Easily sync or backup your content to various storage solutions like GitHub, AWS S3 and more.</p>
-            <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-sky-100 lg:max-w-none">
+            <h2 class="text-base font-semibold leading-7 text-sky-500 dark:text-sky-300">Storage</h2>
+            <p class="mt-2 text-3xl font-bold tracking-tight text-sky-800 dark:text-white sm:text-4xl">Sync your content</p>
+            <p class="mt-6 text-lg leading-8 text-sky-600 dark:text-sky-200">Easily sync or backup your content to various storage solutions like GitHub, AWS S3 and more.</p>
+            <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-sky-900 dark:text-sky-100 lg:max-w-none">
 
               <div class="relative pl-9">
-                <dt class="inline font-semibold text-sky-300">
+                <dt class="inline font-semibold text-sky-600 dark:text-sky-300">
                   <Icon name="uil:arrows-h" class="absolute left-1 top-1 h-5 w-5 text-sky-400" aria-hidden="true" />
                   Sync
                 </dt>
@@ -19,7 +19,7 @@
               </div>
 
               <div class="relative pl-9">
-                <dt class="inline font-semibold text-sky-300">
+                <dt class="inline font-semibold text-sky-600 dark:text-sky-300">
                   <Icon name="uil:hdd" class="absolute left-1 top-1 h-5 w-5 text-sky-400" aria-hidden="true" />
                   Backup
                 </dt>
@@ -28,7 +28,7 @@
               </div>
 
               <div class="relative pl-9">
-                <dt class="inline font-semibold text-sky-300">
+                <dt class="inline font-semibold text-sky-600 dark:text-sky-300">
                   <Icon name="uil:box" class="absolute left-1 top-1 h-5 w-5 text-sky-400" aria-hidden="true" />
                   Publish
                 </dt>
