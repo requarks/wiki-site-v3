@@ -31,19 +31,19 @@
                 <HeadlessMenuItems class="absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-white dark:bg-gray-800/90 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                   <div class="py-1">
                     <HeadlessMenuItem v-slot="{ active }">
-                      <a href="#" @click="$colorMode.preference = 'dark'" :class="[active ? 'text-sky-900 dark:text-sky-300' : 'text-gray-700 dark:text-gray-100', 'flex items-center px-4 py-2 text-sm']">
+                      <a @click="$colorMode.preference = 'dark'" :class="[active ? 'text-sky-900 dark:text-sky-300' : 'text-gray-700 dark:text-gray-100', 'flex items-center px-4 py-2 text-sm cursor-pointer']">
                         <Icon name="uil:moon" class="mr-3" />
                         Dark
                       </a>
                     </HeadlessMenuItem>
                     <HeadlessMenuItem v-slot="{ active }">
-                      <a href="#" @click="$colorMode.preference = 'light'" :class="[active ? 'text-sky-900 dark:text-sky-300' : 'text-gray-700 dark:text-gray-100', 'flex items-center px-4 py-2 text-sm']">
+                      <a @click="$colorMode.preference = 'light'" :class="[active ? 'text-sky-900 dark:text-sky-300' : 'text-gray-700 dark:text-gray-100', 'flex items-center px-4 py-2 text-sm cursor-pointer']">
                         <Icon name="uil:sun" class="mr-3" />
                         Light
                       </a>
                     </HeadlessMenuItem>
                     <HeadlessMenuItem v-slot="{ active }">
-                      <a href="#" @click="$colorMode.preference = 'system'" :class="[active ? 'text-sky-900 dark:text-sky-300' : 'text-gray-700 dark:text-gray-100', 'flex items-center px-4 py-2 text-sm']">
+                      <a @click="$colorMode.preference = 'system'" :class="[active ? 'text-sky-900 dark:text-sky-300' : 'text-gray-700 dark:text-gray-100', 'flex items-center px-4 py-2 text-sm cursor-pointer']">
                         <Icon name="uil:desktop" class="mr-3" />
                         System
                       </a>

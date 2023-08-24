@@ -16,9 +16,9 @@ While the process itself usually sits at around 70MB of RAM, some events *(such 
 ### Storage
 Storage requirements are based on the content you will enter. Wikis that consists almost exclusively of text are not likely to exceed a few megabytes. However, as soon as you upload images, videos or other files, you should plan your storage requirements accordingly.
 
-::: tip
+::tip
 At least 1 GB of storage dedicated to Wiki.js is recommended from the start.
-:::
+::
 
 ### Internet Access
 Wiki.js will automatically check for new versions, fetch language updates, etc. from time to time. You can [read more](/docs/) about what data is downloaded.
@@ -29,9 +29,9 @@ An alternate method of [sideloading files](/docs/) is also available if your env
 
 Wiki.js **requires** a dedicated sub-domain / domain *(e.g. `wiki.example.com`)*.
 
-::: warning
+::warning
 You cannot map Wiki.js to a subfolder.
-:::
+::
 
 ## Database
 
@@ -39,15 +39,15 @@ A [PostgreSQL](https://www.postgresql.org/download/) database is required. The f
 
 - PostgreSQL **12 or later**
 
-::: tip
+::tip
 It's recommended you use the latest version of PostgreSQL when possible.
-:::
+::
 
 You're expected to have installed a PostgreSQL database instance already *(either locally, on another server or using a cloud service)*. Wiki.js requires an empty database and preferably a unique user / pass to connect to the database.
 
-::: warning Permissions
+::warning{title='Permissions'}
 The database user must have the right to create schemas in the database.
-:::
+::
 
 ### Required Extensions
 
@@ -63,16 +63,16 @@ The [Node.js](https://nodejs.org/) runtime is required. The following versions a
 
 - Node.js **18.0 or later**
 
-::: warning Unsupported Versions
+::warning{title='Unsupported Versions'}
 Wiki.js will **NOT** run on older versions such as 16.x, 14.x or any version below **18.x**!
-
+<br><br>
 Future LTS versions (e.g. `20.x`) will be supported once they reach active LTS status.
 Odd-numbered versions (e.g. `19.x`) are not officially supported and not recommended.
-:::
+::
 
-::: tip Using Docker? :whale:
+::tip{title='Using Docker?'}
 **Skip this requirement!** You don't need to install Node.js on your machine! It's included in the Docker image already.
-:::
+::
 
 ## Web Server
 
@@ -89,6 +89,6 @@ The following browsers are supported:
 
 Note that **only the latest stable version** of these browsers are supported. All these browsers update automatically in the background.
 
-::: warning
+::warning
 Internet Explorer 11 *(and earlier)* is **NOT SUPPORTED** and will not be. If you absolutely require IE 11 support, consider using Wiki.js 2.x instead.
-:::
+::

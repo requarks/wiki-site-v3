@@ -5,7 +5,10 @@ export default defineNuxtConfig({
     fallback: 'dark'
   },
   content: {
-    documentDriven: true
+    documentDriven: {
+      page: true,
+      injectPage: true
+    }
   },
   modules: [
     '@nuxtjs/color-mode',
@@ -16,6 +19,11 @@ export default defineNuxtConfig({
     'nuxt-svgo',
     '@nuxtjs/fontaine'
   ],
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml']
+    }
+  },
   tailwindcss: {
     viewer: false
   }

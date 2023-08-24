@@ -20,6 +20,8 @@
     "nuxt-headlessui": "^1.1.4",
     "nuxt-icon": "^0.5.0",
     "nuxt-svgo": "^3.4.0",
-    "sass": "^1.66.0"
+    "remark-directive": "^2.0.1",
+    "sass": "^1.66.0",
+    "sitemap": "^7.1.1"
   }
 }
