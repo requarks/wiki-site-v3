@@ -1,7 +1,7 @@
 <template>
   <header class="sticky top-0 z-50">
     <div class="text-center gap-x-6 bg-rose-600 px-6 py-2.5 text-sm leading-6 text-white sm:px-3.5">
-      <strong class="font-semibold">WARNING</strong><svg viewBox="0 0 2 2" class="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true"><circle cx="1" cy="1" r="1" /></svg> This site is for the unreleased, still under development 3.0 version of Wiki.js. Go to the <a href="#"><strong>current 2.5 version</strong></a> instead.
+      <strong class="font-semibold">WARNING</strong><svg viewBox="0 0 2 2" class="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true"><circle cx="1" cy="1" r="1" /></svg> This site is for the unreleased, still under development 3.0 version of Wiki.js. Go to the <a href="https://js.wiki"><strong>current 2.5 version</strong></a> instead.
     </div>
     <HeadlessDisclosure as="nav" class="bg-white/80 dark:bg-gray-800/25 backdrop-blur" v-slot="{ open }">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
