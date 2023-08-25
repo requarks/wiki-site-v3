@@ -11,9 +11,9 @@ Puppeteer is a headless chromium browser for server-side rendering. It is requir
 
 ## Manual Installation *(advanced)*
 
-::: warning
+::warning
 This installation method is intended to be used only if you're having issues with the automated installation method above!
-:::
+::
 
 1. From a command line terminal, navigate the wiki installation folder.
 2. Navigate to `node_modules/puppeteer-core`:

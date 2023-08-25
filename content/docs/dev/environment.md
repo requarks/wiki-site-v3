@@ -10,9 +10,9 @@ We provide VS Code devcontainer configuration to quickly provision a batteries-i
 * Linux / macOS / Windows 10-11 Pro or Enterprise
 * [Visual Studio Code](https://code.visualstudio.com/)
 
-::: tip Using Windows?
-It's highly recommended to use [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install) which provides a native Linux distribution running directly on the hypervisor, alonside Windows. Make sure to enable Docker Desktop integration for your WSL2 Linux distribution (under Docker Desktop settings, in the **Resources** > **WSL Integration** tab.).
-:::
+::tip{title='Using Windows?'}
+It's highly recommended to use [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install) which provides a native Linux distribution running directly on the hypervisor, alonside Windows. Make sure to enable Docker Desktop integration for your WSL2 Linux distribution (under Docker Desktop settings, in the **Resources** > **WSL Integration** tab).
+::
 
 ## First-time Setup
 1. Clone the project from [GitHub](https://github.com/Requarks/wiki).

@@ -10,9 +10,9 @@ From the **Administration Area**, click **Extensions** in the sidebar.
 
 Extensions that can be installed automatically will have an <kbd>Install</kbd> button next to them. Otherwise a link to the manual instructions will be displayed.
 
-::: tip Using Docker?
+::tip{title='Using Docker?'}
 When running the Wiki.js docker image, most of these extensions are **already included and installed**.
-:::
+::
 
 ## Extensions
 

@@ -1,14 +1,10 @@
 # API
 
-::: danger UNRELEASED version
-This site is for the unreleased, alpha 3.x version of Wiki.js. For the current and stable release of Wiki.js 2.x, read the documentation on https://docs.requarks.io instead.
-:::
-
 Wiki.js exposes a [GraphQL](https://graphql.org/) API from which you can access and modify all the resources of your wiki. If you are new to GraphQL, the site [How to GraphQL](https://www.howtographql.com/) is a great learning resource.
 
-::: tip GraphQL Endpoint
+::tip{title='GraphQL Endpoint'}
 The GraphQL endpoint is located at path `/graphql` on your wiki.js site.
-:::
+::
 
 You can also access this endpoint from your browser to load the **GraphQL Playground** tool which lets you build and test queries, as well as explore all the possible resources you can access. The docs for all available queries and mutations are accessible on the right side of the screen.
 
@@ -34,9 +30,9 @@ For GraphQL Playground, you would use the following format in the **HTTP Headers
 { "Authorization": "Bearer eyJhbGc...aXczt18H6437W" }
 ```
 
-::: info
+::info
 Note that for simplicity, the examples below have hardcoded values. In a real-world application, it is best practice to use [variables](https://graphql.org/learn/queries/#variables) instead.
-:::
+::
 
 ### Fetch all pages
 

@@ -9,7 +9,7 @@ They enable enhanced connectivity between your various organization systems.
 1. From the **Administration Area**, click on **Webhooks** in the sidebar.
 2. Click the **New Webhook** button.
 
-![New Webhook Dialog](/images/docs-admin-webhook-create.png)
+![New Webhook Dialog](/img/docs-admin-webhook-create.png)
 
 Fill-in the form and click **Create**.
 

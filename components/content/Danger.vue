@@ -19,10 +19,14 @@ defineProps(['title'])
 </script>
 
 <style lang="scss" scoped>
-.docs-styled-block.dark :deep(a) {
-  color: #fda4af;
+.docs-styled-block.dark {
+  :deep(a) {
+    color: #fda4af;
+  }
 }
-.docs-styled-block.light :deep(a) {
-  color: #dc2626;
+.docs-styled-block.light {
+  :deep(a) {
+    color: #dc2626;
+  }
 }
 </style>

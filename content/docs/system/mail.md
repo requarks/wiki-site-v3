@@ -25,9 +25,9 @@ You must configure the access to a mail server in order to receive emails from W
 
 ## DKIM
 
-::: tip What is it?
+::tip{title='What is it?'}
 DKIM (DomainKeys Identified Mail) provides a layer of security on all emails sent from Wiki.js by providing the means for recipients to validate the domain name and ensure the message authenticity. Note that not all mail providers offer support for this feature.
-:::
+::
 
 To enable DKIM, enable the toggle for **Use DKIM**. Additional configuration options will appear below.
 
@@ -43,8 +43,8 @@ To enable DKIM, enable the toggle for **Use DKIM**. Additional configuration opt
 
 ## Send a test email
 
-::: warning Apply Changes First!
+::warning{title='Apply Changes First!'}
 Make sure to apply any changes to the mail configuration before attempting to send a test email!
-:::
+::
 
-Enter the recipient email address and click **Send Email**. A test email will be sent to the provided email address using the mail server settings you entered.
+Enter the recipient email address and click <kbd>Send Email</kbd>. A test email will be sent to the provided email address using the mail server settings you entered.

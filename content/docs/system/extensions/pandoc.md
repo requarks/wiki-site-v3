@@ -9,6 +9,6 @@ Pandoc is a command line utility to convert content between various formats. It 
 3. Click on the **Rescan** button to detect newly installed extensions.
 4. The **Pandoc** entry should now be marked as installed.
 
-::: warning
+::warning
 If Pandoc is still listed as not installed, make sure it is installed correctly and available to Wiki.js via command line.
-:::
+::

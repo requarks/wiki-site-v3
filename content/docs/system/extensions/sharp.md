@@ -1,3 +1,5 @@
+# Sharp
+
 Sharp is an image processing library to transform and optimize images. It is required to generate thumbnails of uploaded images and perform various transformations.
 
 ## Automated Installation *(recommended)*
@@ -9,9 +11,9 @@ Sharp is an image processing library to transform and optimize images. It is req
 
 ## Manual Installation *(advanced)*
 
-::: warning
+::warning
 This installation method is intended to be used only if you're having issues with the automated installation method above!
-:::
+::
 
 1. From a command line terminal, navigate the wiki installation folder.
 2. Navigate to `node_modules/sharp`:
