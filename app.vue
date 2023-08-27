@@ -81,7 +81,7 @@ body {
     }
   }
   h1 {
-    font-size: 3.5em;
+    font-size: 3.25em;
     font-weight: 200;
     letter-spacing: -.06em;
     line-height: 1;
