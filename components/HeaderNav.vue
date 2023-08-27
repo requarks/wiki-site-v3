@@ -103,31 +103,3 @@ const navigation = [
 const route = useRoute()
 const currentBaseLink = computed(() => route.path.indexOf('/', 1) > 0 ? `/` + route.path.split('/')[1] : route.path)
 </script>
-
-<style lang="scss" scoped>
-
-// nav {
-//   > a {
-//     color: #FFF;
-//     text-decoration: none;
-//     font-weight: 500;
-//     padding: 6px 12px;
-//     border-radius: 5px;
-//     transition: all .4s ease;
-
-//     &:hover {
-//       background-color: rgba(255,255,255,.2);
-//     }
-
-//     &.icon {
-//       padding: 4px 6px;
-//     }
-//   }
-
-//   .separator {
-//     width: 1px;
-//     height: 32px;
-//     border-left: 1px solid rgba(255,255,255,.25);
-//   }
-// }
-</style>

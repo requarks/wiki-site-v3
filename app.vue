@@ -166,10 +166,10 @@ body {
       content: ''
     }
   }
-  pre > code {
-    color: inherit;
-    background-color: transparent;
-    border: none;
+  pre > code{
+    color: inherit !important;
+    background-color: transparent !important;
+    border: none !important;
     padding: 0;
   }
   blockquote > p {

@@ -8,15 +8,19 @@ export default defineNuxtConfig({
     documentDriven: {
       page: true,
       injectPage: true
+    },
+    highlight: {
+      theme: 'github-dark',
+      preload: ['json', 'js', 'css', 'graphql', 'html', 'shell', 'md', 'yaml']
     }
   },
   modules: [
     '@nuxtjs/color-mode',
-    '@nuxtjs/tailwindcss',
     '@nuxt/content',
     'nuxt-headlessui',
     'nuxt-icon',
     'nuxt-svgo',
+    '@nuxtjs/tailwindcss',
     '@nuxtjs/fontaine'
   ],
   nitro: {
