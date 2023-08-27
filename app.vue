@@ -20,7 +20,7 @@ useHead({
   ],
   script: [
     {
-      innerHTML: 'window.remark_config = { site_id: "wiki", no_footer: true, theme: "dark" }'
+      innerHTML: 'window.remark_config = { site_id: "wiki", no_footer: true, theme: "dark", show_rss_subscription: false }'
     },
     {
       defer: true,
@@ -54,14 +54,22 @@ body {
 
 .prose {
   a {
-    color: #38bdf8;
+    color: #0369a1;
+
+    @at-root .dark & {
+      color: #38bdf8;
+    }
 
     &:hover {
       color: #0284c7;
     }
 
     &:has(strong) {
-      color: #fb7185;
+      color: #be123c;
+
+      @at-root .dark & {
+        color: #fb7185;
+      }
 
       &:hover {
         color: #fda4af;
@@ -102,11 +110,19 @@ body {
   }
   h1, h2, h3, h4, h5, h6 {
     > a {
-      color: #FFF;
+      color: #333;
       text-decoration: none;
 
+      @at-root .dark & {
+        color: #FFF;
+      }
+
       &:hover {
-        color: #f0f9ff;
+        color: #666;
+
+        @at-root .dark & {
+          color: #f0f9ff;
+        }
       }
     }
   }
@@ -117,19 +133,29 @@ body {
     border-radius: 0.375rem;
   }
   strong {
-    color: #fb7185;
+    color: #be123c;
     font-weight: 500;
+
+    @at-root .dark & {
+      color: #fb7185;
+    }
   }
   .docs-styled-block strong {
     color: inherit;
     font-weight: 700;
   }
   code, kbd {
-    color: #ddd6fe;
-    background-color: rgba(#ddd6fe, .1);
-    border: 1px solid rgba(#ddd6fe, .25);
+    color: #4c1d95;
+    background-color: rgba(#4c1d95, .05);
+    border: 1px solid rgba(#4c1d95, .2);
     border-radius: 4px;
     padding: 1px 5px;
+
+    @at-root .dark & {
+      color: #ddd6fe;
+      background-color: rgba(#ddd6fe, .1);
+      border: 1px solid rgba(#ddd6fe, .25);
+    }
 
     &::before {
       display: none;

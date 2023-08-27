@@ -18,7 +18,7 @@
             </div>
           </div>
           <div class="hidden md:flex md:items-center md:space-x-4">
-            <NuxtLink v-for="item in navigation" :key="item.name" :to="item.href" :class="[item.href === currentBaseLink ? 'bg-sky-500 text-white dark:bg-gray-900 dark:text-sky-300' : 'text-gray-800 dark:text-gray-200 hover:bg-gray-700/70 hover:text-white', 'rounded-md px-3 py-2 font-medium focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-500']" :aria-current="item.href === currentBaseLink ? 'page' : undefined">{{ item.name }}</NuxtLink>
+            <NuxtLink v-for="item in navigation" :key="item.name" :to="item.href" :class="[item.href === currentBaseLink ? 'bg-sky-500 text-white dark:bg-gray-900 dark:text-sky-300' : 'text-gray-800 dark:text-gray-200 hover:bg-gray-200/50 dark:hover:bg-gray-700/70 hover:text-sky-600 dark:hover:text-white', 'rounded-md px-3 py-2 font-medium focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-500']" :aria-current="item.href === currentBaseLink ? 'page' : undefined">{{ item.name }}</NuxtLink>
           </div>
           <div class="flex items-center justify-end basis-50">
             <HeadlessMenu as="div" class="relative inline-block mr-4">
