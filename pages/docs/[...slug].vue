@@ -89,45 +89,4 @@ onBeforeUnmount(() => {
 .docs {
   max-width: 90rem;
 }
-
-.docs-content {
-  a {
-    color: #38bdf8;
-
-    &:hover {
-      color: #0284c7;
-    }
-  }
-  h2, h3 {
-    > a {
-      color: #FFF;
-      text-decoration: none;
-
-      &:hover {
-        color: #f0f9ff;
-      }
-    }
-  }
-  kbd {
-    color: #ddd6fe;
-    background-color: rgba(#ddd6fe, .1);
-    border: 1px solid rgba(#ddd6fe, .25);
-    border-radius: 4px;
-    padding: 1px 5px;
-  }
-  .docs-styled-block a {
-    font-weight: 600;
-  }
-  img {
-    border-radius: 0.375rem;
-  }
-  strong {
-    color: #fb7185;
-    font-weight: 500;
-  }
-  .docs-styled-block strong {
-    color: inherit;
-    font-weight: 700;
-  }
-}
 </style>

@@ -2,9 +2,9 @@
 
 The DigitalOcean Marketplace Wiki.js image is a pre-configured environment, made by the developers of Wiki.js, containing everything you need to get started with Wiki.js.
 
-::: danger Coming Soon
+::danger{title='Coming Soon'}
 The current DigitalOcean droplet image is using the 2.x version. 3.x Wiki.js droplets will be available in the future.
-:::
+::
 
 ## Image Specifications
 
@@ -41,9 +41,9 @@ Various services must initialize for the first time before you'll be able to acc
 
 ## Automatic HTTPS with Let's Encrypt
 
-::: warning Prerequisites
+::warning{title='Prerequisites'}
 You must complete the setup wizard (see [Getting Started](#getting-started)) **BEFORE** enabling Let's Encrypt!
-:::
+::
 
 1. Create an **A record** on your domain registrar to point a domain / sub-domain (e.g. `wiki.example.com`) to your droplet **public IP**.
 2. Make sure you're able to load your wiki using that domain / sub-domain on HTTP (e.g. `http://wiki.example.com`).
@@ -70,15 +70,15 @@ docker start wiki
 ```
 docker logs wiki
 ```
-::: tip
-The process will be completed once you see the following lines in the logs:
+::tip
+The process will be completed once you see the following lines in the logs:<br><br>
 
 ```
 (LETSENCRYPT) New certifiate received successfully: [ COMPLETED ]
 HTTPS Server on port: [ 3443 ]
 HTTPS Server: [ RUNNING ]
 ```
-:::
+::
 
 8. Load your wiki in your web browser using HTTPS (e.g. `https://wiki.example.com`). Your wiki is now accepting HTTPS requests using a free Let's Encrypt certificate!
 

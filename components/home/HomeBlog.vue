@@ -9,7 +9,7 @@
         <p class="mt-2 text-lg leading-8 text-blue-400">Stay up-to-date with the latest developments and what's coming next.</p>
       </div>
       <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 lg:gap-y-16 sm:mt-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-        <article v-for="post in posts" :key="post.id" class="flex bg-blue-800/20 py-8 px-8 rounded-xl border border-solid border-blue-800 shadow-lg max-w-xl flex-col items-start">
+        <article v-for="post in posts" :key="post._id" class="flex bg-blue-800/20 py-8 px-8 rounded-xl border border-solid border-blue-800 shadow-lg max-w-xl flex-col items-start">
           <div class="flex items-center gap-x-4 text-xs">
             <time :datetime="post._date" class="text-blue-300">{{ post.dateHuman }}</time>
           </div>

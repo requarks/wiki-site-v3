@@ -11,9 +11,9 @@ The following resources are tied to a site:
 - Media Assets
 - Site Configuration *(e.g. theme, locales, navigation, etc.)*
 
-::: warning User Scope
+::warning{title='User Scope'}
 Users reside at the global level and are **NOT** tied to a site. They can be allowed access to multiple sites at once. Use **Group Rules** to restrict a user access to one or more sites.
-:::
+::
 
 ## Requirements
 
@@ -63,9 +63,9 @@ The General page is where most of the site settings can be customized.
 
 #### Features
 
-::: warning Site-wide Settings
+::warning{title='Site-wide Settings'}
 The options below are site-wide switches that will override any setting set by page rules.
-:::
+::
 
 > **Allow Comments**: Can users leave comments on pages? Can be restricted using Page Rules.
 
@@ -81,15 +81,15 @@ The options below are site-wide switches that will override any setting set by p
 
 > **Page Extensions**: A comma-separated list of URL extensions that will be treated as pages. For example, adding md will treat /foobar.md the same as /foobar.
 
-::: warning Assets Conflict
+::warning{title='Assets Conflict'}
 Any extensions listed above will take result in the requested resource be treated as a page, even if an asset with the same name and extensions exists.
-:::
+::
 
 #### Logo
 
-::: warning Extension Required
+::warning{title='Extension Required'}
 Note that all upload options below require the **Sharp** extension to be enabled on your instance.
-:::
+::
 
 > **Site Logo**: Logo image file, in SVG, PNG, JPG, WEBP or GIF format. Should be a square image, otherwise turn off the `Display Site Title` option.
 
@@ -127,7 +127,7 @@ To re-enable a site, click on the same toggle again.
 
 To delete a site, click the red delete button next to the desired site. You'll be prompted to confirm your choice.
 
-::: danger CAUTION
+::danger{title='CAUTION'}
 This will permanently delete all pages, comments, assets and settings associated to this site! Note that users will **NOT** be affected as they are global to the instance and not tied to a specific site.
-:::
+::
 
