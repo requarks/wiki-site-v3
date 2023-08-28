@@ -9,7 +9,11 @@ export default defineNuxtConfig({
     },
     crawler: process.env.ALGOLIA_CRAWLER_API_KEY ? {
       apiKey: process.env.ALGOLIA_CRAWLER_API_KEY,
-      indexName: 'wiki'
+      indexName: 'wiki',
+      meta: ['title', 'description', 'content', '_path', 'path'],
+      include: route => {
+        return !route.startsWith('api')
+      }
     } : false
   },
   colorMode: {
