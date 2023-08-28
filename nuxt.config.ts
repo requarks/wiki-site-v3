@@ -5,14 +5,17 @@ export default defineNuxtConfig({
     applicationId: '3HYAPWEOVH',
     globalIndex: 'wiki',
     docSearch: {
-      indexName: 'wiki'
+      apiKey: '6b8d774b8274e2f0ece9ea09b411c900',
+      applicationId: '3HYAPWEOVH',
+      indexName: 'wiki',
+      placeholder: 'Search'
     },
     crawler: process.env.ALGOLIA_CRAWLER_API_KEY ? {
       apiKey: process.env.ALGOLIA_CRAWLER_API_KEY,
       indexName: 'wiki',
-      meta: ['title', 'description', 'content', '_path', 'path'],
+      meta: ['title', 'description'],
       include: route => {
-        return !route.startsWith('api')
+        return route.startsWith('/docs/') && !route.endsWith('.json') && !route.endsWith('.html')
       }
     } : false
   },
