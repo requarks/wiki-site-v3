@@ -1,5 +1,17 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  algolia: {
+    apiKey: '6b8d774b8274e2f0ece9ea09b411c900',
+    applicationId: '3HYAPWEOVH',
+    globalIndex: 'wiki',
+    docSearch: {
+      indexName: 'wiki'
+    },
+    crawler: process.env.ALGOLIA_CRAWLER_API_KEY ? {
+      apiKey: process.env.ALGOLIA_CRAWLER_API_KEY,
+      indexName: 'wiki'
+    } : false
+  },
   colorMode: {
     classSuffix: '',
     fallback: 'dark'
@@ -15,6 +27,7 @@ export default defineNuxtConfig({
     }
   },
   modules: [
+    '@nuxtjs/algolia',
     '@nuxtjs/color-mode',
     '@nuxt/content',
     'nuxt-headlessui',
