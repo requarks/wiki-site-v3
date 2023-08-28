@@ -32,6 +32,18 @@ const humanDate = computed(() => DateTime.fromISO(page.value.date).toFormat('LLL
 
 // REMARK42 Initialization
 
+useHead({
+  script: [
+    {
+      innerHTML: 'window.remark_config = { site_id: "wiki", no_footer: true, theme: "dark", show_rss_subscription: false }'
+    },
+    {
+      defer: true,
+      src: 'https://comments.js.wiki/web/embed.js'
+    }
+  ]
+})
+
 const remark42Ref = ref(null)
 const remark42Instance = ref(null)
 

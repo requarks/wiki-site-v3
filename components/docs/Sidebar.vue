@@ -1,6 +1,5 @@
 <template>
   <nav class="text-base lg:text-sm bg-gray-50 dark:bg-gray-950/50 p-6 rounded-lg flex-none basis-[17rem]">
-    <AlgoliaDocSearch />
     <ul role="list" className="space-y-9 mt-6">
       <li v-for="section of props.navigation" :key="section._path">
         <h2 className="font-display font-semibold text-slate-700 dark:text-white">

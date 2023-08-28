@@ -17,15 +17,6 @@ useHead({
       rel: 'stylesheet',
       href: 'https://rsms.me/inter/inter.css'
     }
-  ],
-  script: [
-    {
-      innerHTML: 'window.remark_config = { site_id: "wiki", no_footer: true, theme: "dark", show_rss_subscription: false }'
-    },
-    {
-      defer: true,
-      src: 'https://comments.js.wiki/web/embed.js'
-    }
   ]
 })
 </script>
