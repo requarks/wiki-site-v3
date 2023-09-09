@@ -39,7 +39,7 @@
             </dl>
           </div>
         </div>
-        <img src="/img/home-customization.png" alt="Customization" class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-white/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442" />
+        <img src="/img/home-customization.png" alt="Customization" class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-white/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="1920" height="1080" />
       </div>
     </div>
   </div>
