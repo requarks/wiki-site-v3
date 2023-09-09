@@ -23,30 +23,33 @@
             </div>
           </dl>
         </div>
-        <div class="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-2">
-          <div class="bg-white/5 hover:bg-white/10 p-8 sm:p-10">
+        <div class="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
+          <div class="bg-white/5 hover:bg-white/10 p-8 sm:p-10 flex items-center">
             <a href="https://www.browserstack.com/" target="_blank"><SvgoBrowserstack class="max-h-12 w-full object-container" :fontControlled="false" filled /></a>
           </div>
-          <div class="bg-white/5 hover:bg-white/10 p-6 sm:p-10">
+          <div class="bg-white/5 hover:bg-white/10 p-6 sm:p-10 flex items-center">
             <a href="https://canny.io/" target="_blank"><SvgoCanny class="max-h-12 w-full object-container" :fontControlled="false" filled /></a>
           </div>
-          <div class="bg-white/5 hover:bg-white/10 p-6 sm:p-10">
+          <div class="bg-white/5 hover:bg-white/10 p-6 sm:p-10 flex items-center">
             <a href="https://icons8.com/" target="_blank"><SvgoIcons8 class="max-h-12 w-full object-container" :fontControlled="false" filled /></a>
           </div>
-          <div class="bg-white/5 hover:bg-white/10 p-6 sm:p-10">
+          <div class="bg-white/5 hover:bg-white/10 p-6 sm:p-10 flex items-center">
             <a href="https://localazy.com/" target="_blank"><SvgoLocalazy class="max-h-12 w-full object-container translate-y-1" :fontControlled="false" filled /></a>
           </div>
-          <div class="bg-white/5 hover:bg-white/10 p-6 sm:p-10">
+          <div class="bg-white/5 hover:bg-white/10 p-6 sm:p-10 flex items-center">
             <a href="https://www.macstadium.com/" target="_blank"><SvgoMacstadium class="max-h-12 w-full object-container" :fontControlled="false" filled /></a>
           </div>
-          <div class="bg-white/5 hover:bg-white/10 p-6 sm:p-10">
+          <div class="bg-white/5 hover:bg-white/10 p-6 sm:p-10 flex items-center">
             <a href="https://www.netlify.com/" target="_blank"><SvgoNetlify class="max-h-12 w-full object-container" :fontControlled="false" filled /></a>
           </div>
-          <div class="bg-white/5 hover:bg-white/10 p-6 sm:p-10">
+          <div class="bg-white/5 hover:bg-white/10 p-6 sm:p-10 flex items-center">
             <a href="https://ngrok.com/" target="_blank"><SvgoNgrok class="max-h-12 w-full object-container" :fontControlled="false" filled /></a>
           </div>
-          <div class="bg-white/5 hover:bg-white/10 p-6 sm:p-10">
+          <div class="bg-white/5 hover:bg-white/10 p-6 sm:p-10 flex items-center">
             <a href="https://www.porkbun.com/" target="_blank"><SvgoPorkbun class="max-h-12 w-full object-container" :fontControlled="false" filled /></a>
+          </div>
+          <div class="bg-white/5 hover:bg-white/10 p-6 sm:p-10 flex items-center">
+            <a href="https://trans-zero.com/" target="_blank"><img src="/img/logo-transzero.png" alt="Trans Zero" class="max-h-12 w-full object-container" /></a>
           </div>
         </div>
       </div>
