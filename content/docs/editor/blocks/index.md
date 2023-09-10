@@ -1,3 +1,0 @@
-# Blocks - Index
-
-Todo
