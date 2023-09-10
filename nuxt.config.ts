@@ -50,5 +50,10 @@ export default defineNuxtConfig({
   },
   tailwindcss: {
     viewer: false
+  },
+  vue: {
+    compilerOptions: {
+      isCustomElement: (tag) => ['dotlottie-player'].includes(tag)
+    }
   }
 })

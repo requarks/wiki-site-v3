@@ -43,7 +43,9 @@
           </div>
         </div>
         <div class="flex items-center justify-end lg:order-first">
-          <img src="/img/home-storage.png" alt="Storage Diagram" class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" width="1920" height="1080" />
+          <div class="w-[48rem] max-w-none sm:w-[57rem]">
+            <dotlottie-player src="/lottie/servers.lottie" background="transparent" speed="1" style="width: 100%; height: 100%;" loop autoplay direction="1" mode="normal"></dotlottie-player>
+          </div>
         </div>
       </div>
     </div>

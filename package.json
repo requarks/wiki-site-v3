@@ -27,5 +27,8 @@
     "remark-directive": "^2.0.1",
     "sass": "^1.66.0",
     "sitemap": "^7.1.1"
+  },
+  "dependencies": {
+    "@dotlottie/player-component": "^2.5.3"
   }
 }
