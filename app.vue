@@ -163,6 +163,18 @@ body {
     border: none !important;
     padding: 0;
   }
+  pre::-webkit-scrollbar {
+    height: .5em;
+  }
+
+  pre::-webkit-scrollbar-track {
+    background-color: rgba(158, 203, 255, .15);
+  }
+
+  pre::-webkit-scrollbar-thumb {
+    background-color: rgb(158, 203, 255, .3);
+    border-radius: 3px;
+  }
   blockquote > p {
     &::before {
       display: none;

@@ -1,5 +1,9 @@
 # Docker
 
+::danger{title='ALPHA RELEASE'}
+During the alpha release period, docker images are tagged as `3.0.0-alpha` and `3.0.0-alpha.X` where `X` is the build number and are only available on the `ghcr.io` registry.
+::
+
 ## Using the Docker Image
 
 A Wiki.js docker image is available on the following registries:
@@ -22,7 +26,7 @@ ghcr.io/requarks/wiki:3.0
 ghcr.io/requarks/wiki:3.0.1
 ```
 
-::danger{title='Warning'}
+::warning{title='Warning'}
 While the `latest` tag is available, it's **NOT RECOMMENDED** to use it as it can break your deployment if the next major version has breaking changes.
 ::
 

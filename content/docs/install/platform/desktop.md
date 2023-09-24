@@ -14,14 +14,14 @@ Install Docker Desktop which includes both Docker and Docker Compose:
 
 Create a new folder named `wiki` at the location of your choice.
 
-Inside this folder, create a new file named `docker-compose.yaml` and paste the following contents inside:
+Inside this folder, create a new file named `docker-compose.yaml` and paste the following contents inside, replacing the `REPLACE_ME` values with the desired email and password for the root admin account: 
 
 ```yaml
 version: "3"
 services:
 
   db:
-    image: postgres:14-alpine
+    image: postgres:16
     environment:
       POSTGRES_DB: wiki
       POSTGRES_PASSWORD: wikijsrocks
@@ -33,12 +33,13 @@ services:
       - db-data:/var/lib/postgresql/data
 
   wiki:
-    image: ghcr.io/requarks/wiki:3-alpha
+    image: ghcr.io/requarks/wiki:3.0.0-alpha
     depends_on:
       - db
     environment:
+      ADMIN_EMAIL: REPLACE_ME
+      ADMIN_PASS: REPLACE_ME
       DB_HOST: db
-      DB_PORT: 5432
       DB_USER: wikijs
       DB_PASS: wikijsrocks
       DB_NAME: wiki
@@ -50,7 +51,7 @@ volumes:
   db-data:
 ```
 
-This file simply defines a PostgreSQL container *(our database)* and the Wiki.js container.
+This file simply defines a PostgreSQL container *(the database)* and the Wiki.js container.
 
 ## 3. Open Terminal / Command Prompt
 
