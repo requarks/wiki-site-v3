@@ -33,6 +33,9 @@ export default defineNuxtConfig({
       preload: ['json', 'js', 'css', 'graphql', 'html', 'shell', 'md', 'yaml']
     }
   },
+  devServer: {
+    port: 8080
+  },
   modules: [
     '@nuxtjs/algolia',
     '@nuxtjs/color-mode',

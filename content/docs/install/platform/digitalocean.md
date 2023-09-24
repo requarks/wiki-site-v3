@@ -11,7 +11,7 @@ The current DigitalOcean droplet image is using the 2.x version. 3.x Wiki.js dro
 Ubuntu 22.04 LTS with the following software pre-installed:
 
 - Docker
-- PostgreSQL 14 *(dockerized)*{.caption}
+- PostgreSQL 16 *(dockerized)*{.caption}
 - Wiki.js 3.x *(dockerized, accessible via port 80)*{.caption}
 - Wiki.js Update Companion *(dockerized)*{.caption}
 - OpenSSH with UFW Firewall preconfigured for SSH, HTTP and HTTPS
