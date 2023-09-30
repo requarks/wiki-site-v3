@@ -70,4 +70,4 @@ docker compose up -d
 
 ## 5. Browse to Wiki.js
 
-Open your browser and navigate to http://localhost to complete the installation and use Wiki.js!
+Open your browser, navigate to http://localhost and login using the email and password you provided above!
