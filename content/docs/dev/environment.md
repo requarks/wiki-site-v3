@@ -7,7 +7,7 @@ We provide VS Code devcontainer configuration to quickly provision a batteries-i
 ## Prerequisites
 
 * Docker + Docker Compose (via [Docker Desktop](https://www.docker.com/products/docker-desktop/))
-* Linux / macOS / Windows 10-11 Pro or Enterprise
+* Linux / macOS / Windows 10-11 Pro
 * [Visual Studio Code](https://code.visualstudio.com/)
 
 ::tip{title='Using Windows?'}
@@ -22,22 +22,24 @@ It's highly recommended to use [WSL2](https://docs.microsoft.com/en-us/windows/w
 
 	![ui-dev-vscode-remotebtn.png](/img/docs-dev-vscode-remotebtn.png)
 
-5. Select **Remote Containers - Reopen in Container**
+5. Select **Dev Containers - Reopen in Container**
 6. VS Code will now reload and start initializing the containers. Wait for it to complete. This **may take a while the very first time** as npm dependencies must be installed.
 
 	![ui-dev-vscode-init.png](/img/docs-dev-vscode-init.png)
 
-7. Open the **Terminal** *(View > Terminal)* and select "**1: bash**" from the dropdown selector on the right:
+7. A **Terminal** should automatically be launched in a split pane view:
 
-	![ui-dev-vscode-bash.png](/img/docs-dev-vscode-bash.png)
-
-8. From the command line, type the following command to start Wiki.js in development mode:
+8. From **left** terminal, type the following command to start the backend server in development mode:
     ```bash
-      yarn dev
+      npm run dev
     ```
-9. Wait for the initialization to complete. You'll be prompted to load `http://localhost:3000/` when ready.
-9. Browse to `http://localhost:3000/` *(replace localhost with the hostname of your machine if applicable)*.
-10. Complete the setup wizard to finish the installation.
+8. From **right** terminal, type the following command to start the frontend development server (Quasar):
+    ```bash
+      npm run dev
+    ```
+9. Wait for the initialization to complete on both side.
+9. Browse to `http://localhost:3001` *(replace localhost with the hostname of your machine if applicable)*.
+10. Login using `admin@example.com` /  `12345678` credentials.
 
 ## Stopping the project
 
@@ -49,10 +51,10 @@ When you're done and no longer need the development environment, open the **Remo
 
 ## Building production assets
 
-Once you're ready to deploy your changes, you need to build the client assets into a production optimized bundle:
+Once you're ready to deploy your changes, you need to build the client assets into a production optimized bundle. From the `ux` directory, run the command:
 
 ```bash
-yarn build
+npm run build
 ```
 
 ## Notes
