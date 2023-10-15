@@ -31,11 +31,11 @@ It's highly recommended to use [WSL2](https://docs.microsoft.com/en-us/windows/w
 
 8. From **left** terminal, type the following command to start the backend server in development mode:
     ```bash
-      npm run dev
+      pnpm dev
     ```
 8. From **right** terminal, type the following command to start the frontend development server (Quasar):
     ```bash
-      npm run dev
+      pnpm dev
     ```
 9. Wait for the initialization to complete on both side.
 9. Browse to `http://localhost:3001` *(replace localhost with the hostname of your machine if applicable)*.
@@ -54,7 +54,7 @@ When you're done and no longer need the development environment, open the **Remo
 Once you're ready to deploy your changes, you need to build the client assets into a production optimized bundle. From the `ux` directory, run the command:
 
 ```bash
-npm run build
+pnpm build
 ```
 
 ## Notes

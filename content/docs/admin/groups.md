@@ -28,15 +28,47 @@ TODO
 
 A permission allows a user to perform a specific set of actions related to the administration of the wiki. Contrary to **Rules** which govern content, **Permissions** are strictly for management rights.
 
+### API
+
 | Permission      | Description                                                     | Notes                                                          |
 |-----------------|-----------------------------------------------------------------|----------------------------------------------------------------|
-| `write:users`   | Can create or authorize new users, but not modify existing ones | Cannot assign to **Administrators** group.                     |
-| `manage:users`  | Can edit existing users.                                        | Cannot modify users from **Administrators** group.             |
-| `write:groups`  | Can create and edit new groups and assign **Rules**.            | Cannot set **Permissions**.                                    |
-| `manage:groups` | Same as `write:groups` but can set **Permissions**.             | Cannot set the `manage:system` permission.                     |
-| `manage:theme`  | Can modify theme settings.                                      |                                                                |
-| `manage:system` | Can manage and access everything.                               |                                                                |
+| `read:api`      | Can list existing API keys.                                     |                                                                |
 | `manage:api`    | Can generate and revoke API keys.                               | Cannot generate keys with the **Administrators** group rights. |
+
+### Groups / Users
+
+| Permission      | Description                                                      | Notes                                                         |
+|-----------------|------------------------------------------------------------------|---------------------------------------------------------------|
+| `read:users`    | Can list and view any user.                                      |                                                               |
+| `write:users`   | Can create or authorize new users, but not modify existing ones. | Cannot assign to **Administrators** group.                    |
+| `manage:users`  | Can edit existing users.                                         | Cannot modify users from **Administrators** group.            |
+| `read:groups`   | Can list and view any group.                                     |                                                               |
+| `write:groups`  | Can create and edit new groups and assign **Rules**.             | Cannot set **Permissions**.                                   |
+| `manage:groups` | Same as `write:groups` but can set **Permissions**.              | Cannot set the `manage:system` permission.                    |
+
+### Sites
+
+| Permission      | Description                                                     | Notes                                                          |
+|-----------------|-----------------------------------------------------------------|----------------------------------------------------------------|
+| `read:sites`    | Can list and view a site configuration.                         |                                                                |
+| `write:sites`   | Can create new sites, but not modify existing ones.             | Cannot create a site with a wildcard `*` hostname.             |
+| `manage:sites`  | Can edit and delete existing sites.                             |                                                                |
+| `manage:theme`  | Can modify theme settings.                                      |                                                                |
+
+### System
+
+| Permission       | Description                                                     | Notes                                                         |
+|------------------|-----------------------------------------------------------------|---------------------------------------------------------------|
+| `read:dashboard` | Can access the administration area and view dashboard metrics.  |                                                               |
+| `manage:system`  | Can manage and access everything.                               |                                                               |
+
+### Webhooks
+
+| Permission        | Description                                                     | Notes                                                        |
+|-------------------|-----------------------------------------------------------------|--------------------------------------------------------------|
+| `read:webhooks`   | Can list existing webhooks and their configuration.             |                                                              |
+| `write:webhooks`  | Can create new webooks, but not modify existing ones.           |                                                              |
+| `manage:webhooks` | Can edit and delete existing webhooks.                          |                                                              |
 
 ## Users
 

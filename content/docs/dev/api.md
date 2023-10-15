@@ -118,3 +118,77 @@ mutation {
   }
 }
 ```
+
+## Errors Reference
+
+Mutations always return an `operation` object reponse. This object contains both a `succeeded` boolean flag and a `message` string. In most cases, the message will be one of the keys listed below. This allows for easy translation when shown to the user on the client side.
+
+### General
+
+| Key | Description |
+|-----|-------------|
+| `ERR_FORBIDDEN` | Request is authenticated but doesn't have the necessary permissions. |
+| `ERR_INVALID_INPUT` | The provided input is invalid. |
+| `ERR_INVALID_PATH` | An invalid path was provided. |
+| `ERR_INVALID_SITE` | An invalid site ID was provided. |
+| `ERR_INVALID_USER` | An invalid user ID was provided. |
+| `ERR_NOT_AUTHENTICATED` | Request was made as a guest or is missing an authorization token. |
+
+### Authentication
+
+| Key | Description |
+|-----|-------------|
+| `ERR_DUPLICATE_ACCOUNT_EMAIL` | An account already exists with the same email. |
+| `ERR_EMAIL_ADDRESS_NOT_ALLOWED` | The provided email address is invalid. |
+| `ERR_EXPIRED_TOKEN` | The provided token is valid but has expired. |
+| `ERR_EXPIRED_VALIDATION_TOKEN` | The provided validation token is valid but has expired. |
+| `ERR_INACTIVE_USER` | User is inactive / disabled. |
+| `ERR_INCORRECT_CURRENT_PASSWORD` | Current password mismatch. |
+| `ERR_INVALID_STRATEGY` | The provided strategy ID is invalid. |
+| `ERR_INVALID_TOKEN` | The provided token is invalid. |
+| `ERR_INVALID_VALIDATION_TOKEN` | The provided validation token is invalid. |
+| `ERR_LOGIN_FAILED` | Generic login failure. *For security reasons, the actual error is not returned via the API or shown to the client. Look at the server logs for the actual reason.* |
+| `ERR_LOGIN_RESTRICTED` | User is not allowed to login with this strategy. |
+| `ERR_MISSING_TOKEN` | Current token was not provided for a token refresh. |
+| `ERR_PASSKEY_NOT_SETUP` | Attempted to finalize / deactivate a passkey on an account with no prior passkey setup. |
+| `ERR_PASSWORD_TOO_SHORT` | The provided password is too short. |
+| `ERR_PK_ALREADY_REGISTERED` | A passkey with this authenticator has already registered. |
+| `ERR_PK_HOSTNAME_MISSING` | Cannot setup / authenticate a passkey on a site with a wildcard `*` hostname. You need to set a valid hostname for the site in the Administration Area. |
+| `ERR_PK_NAME_MISSING_OR_INVALID` | Passkey name is missing or is invalid. |
+| `ERR_PK_USER_CANCELLED` | Passkey registration aborted by the user. |
+| `ERR_PK_VERIFICATION_FAILED` | Passkey verification failed while attempting to register a new passkey. |
+| `ERR_REGISTRATION_DISABLED` | User registration is disabled. |
+| `ERR_TFA_ALREADY_ACTIVE` | Attempted to setup TFA on an account with already active TFA. |
+| `ERR_TFA_INCORRECT_TOKEN` | The provided TFA token is invalid. |
+| `ERR_TFA_INVALID_REQUEST` | The provided TFA token format is wrong or no continuation token provided. |
+| `ERR_TFA_NOT_ACTIVE` | Attempted to deactivate TFA on an account with no active TFA. |
+| `ERR_USER_NOT_VERIFIED` | User has not verified his account. |
+
+### Files / Folders
+
+| Key | Description |
+|-----|-------------|
+| `ERR_FOLDER_DUPLICATE` | A folder already exists at this path. |
+| `ERR_FOLDER_PARENT_INVALID` | The provided parent folder is invalid. |
+| `ERR_FOLDER_TITLE_INVALID`| The provided folder title is invalid. |
+| `ERR_INVALID_FOLDER` | The provided folder ID doesn't exist. |
+
+### Pages
+
+| Key | Description |
+|-----|-------------|
+| `ERR_PAGE_ALIAS_MISSING` | No alias was provided when requesting a page from an alias. |
+| `ERR_PAGE_ALIAS_NOT_FOUND` | The alias does not exist for this site. |
+| `ERR_PAGE_ALIAS_TOO_LONG` | The page alias is too long. |
+| `ERR_PAGE_DUPLICATE_ALIAS` | This alias already exists. |
+| `ERR_PAGE_DUPLICATE_PATH` | A page at this path already exists. |
+| `ERR_PAGE_INVALID_ALIAS` | The provided alias is invalid (e.g. invalid characters). |
+| `ERR_PAGE_INVALID_TOC_DEPTH` | The provided Table of Contents min/max depth is invalid. |
+| `ERR_PAGE_MISSING_SCHEDULED_DATES` | The publish state was set to Scheduled but no start / end date specified. |
+| `ERR_PAGE_NOT_FOUND` | The requested page doesn't exist. |
+| `ERR_PAGE_RELATION_ICON_INVALID` | A page icon identified is invalid. |
+| `ERR_PAGE_RELATION_LABEL_MISSING` | A page relation label is missing. |
+| `ERR_PAGE_RELATION_LABEL_TOOLONG` | A page relation label is too long. |
+| `ERR_PAGE_RELATION_TARGET_INVALID` | A page relation target is invalid or too long. |
+| `ERR_PAGE_TITLE_MISSING` | A page title is missing. |
+| `ERR_PAGE_UPDATE_FORBIDDEN` | You are not authorized to update this page. |
