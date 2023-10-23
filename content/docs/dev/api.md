@@ -3,7 +3,7 @@
 Wiki.js exposes a [GraphQL](https://graphql.org/) API from which you can access and modify all the resources of your wiki. If you are new to GraphQL, the site [How to GraphQL](https://www.howtographql.com/) is a great learning resource.
 
 ::tip{title='GraphQL Endpoint'}
-The GraphQL endpoint is located at path `/graphql` on your wiki.js site.
+The GraphQL endpoint is located at path `/_graphql` on your wiki.js site.
 ::
 
 You can also access this endpoint from your browser to load the **GraphQL Playground** tool which lets you build and test queries, as well as explore all the possible resources you can access. The docs for all available queries and mutations are accessible on the right side of the screen.
