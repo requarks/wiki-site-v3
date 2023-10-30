@@ -173,6 +173,14 @@ Mutations always return an `operation` object reponse. This object contains both
 | `ERR_FOLDER_TITLE_INVALID`| The provided folder title is invalid. |
 | `ERR_INVALID_FOLDER` | The provided folder ID doesn't exist. |
 
+### Mail
+
+| Key | Description |
+|-----|-------------|
+| `ERR_MAIL_INVALID_RECIPIENT` | The provided recipient email is invalid. |
+| `ERR_MAIL_NOT_CONFIGURED` | The mail configuration is missing or incomplete. |
+| `ERR_MAIL_RENDER_FAILED` | The mail template failed to render. |
+
 ### Pages
 
 | Key | Description |
