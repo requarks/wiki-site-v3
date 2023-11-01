@@ -27,7 +27,7 @@ It's however possible to run Wiki.js in offline mode and [sideload files](/docs/
 Wiki.js **requires** a dedicated sub-domain / domain *(e.g. `wiki.example.com`)*.
 
 ::warning
-You **CANNOT** map Wiki.js to a subfolder *(e.g. `/wiki`)* on an existing domain.
+You **CANNOT** map Wiki.js to a subfolder *(e.g. `/wiki`)* on an existing domain. [Read why](/docs/install/subfolder).
 ::
 
 ## Database
