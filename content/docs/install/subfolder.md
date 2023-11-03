@@ -8,7 +8,7 @@ navigation: false
 
 **Long answer**: It introduces many problems:
 
-- **Path parsing**: Assuming an installation at `/wiki`. If a user enters a link to `/foobar`, does it mean `/foobar` or  `/wiki/foobar`? When creating a page, do you enter the subfolder in the path or not? What if the user does? Should it strips the subfolder? What if the user does want to put the page in a folder `wiki` under `/wiki`? When adding an image to a page, should it rewrite the path with the prefix? Having assets in a subolder at the root is a very common case. One user would expect one behavior while another would expect the opposite. This becomes extremely confusing for both the developer and the end users.
+- **Path parsing**: Assuming an installation at `/wiki`. If a user enters a link to `/foobar`, does it mean `/foobar` or  `/wiki/foobar`? When creating a page, do you enter the subfolder in the path or not? What if the user does? Should it strips the subfolder? What if the user does want to put the page in a folder `wiki` under `/wiki`? When adding an image to a page, should it rewrite the path with the prefix? Having assets in a subfolder at the root is a very common case. One user would expect one behavior while another would expect the opposite. This becomes extremely confusing for both the developer and the end users.
 
 - **Export/import**: When exporting the page to a Git repository, should all the links be rewritten without the prefix? How about importing? Should it assume all links need to be prefixed? What if I want to link to another folder at the domain root?
 
