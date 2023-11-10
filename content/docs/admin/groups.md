@@ -59,7 +59,8 @@ A permission allows a user to perform a specific set of actions related to the a
 
 | Permission       | Description                                                     | Notes                                                         |
 |------------------|-----------------------------------------------------------------|---------------------------------------------------------------|
-| `read:dashboard` | Can access the administration area and view dashboard metrics.  |                                                               |
+| `read:dashboard` | Can access the administration area and view dashboard stats.    |                                                               |
+| `read:metrics`   | Can access the /metrics prometheus endpoint.                    |                                                               |
 | `manage:system`  | Can manage and access everything.                               |                                                               |
 
 ### Webhooks
